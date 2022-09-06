@@ -1,0 +1,117 @@
+
+/*CSS untuk Tampilan Tablet*/
+@media (max-width: 1000Px)
+{
+		tml, body,
+	ul, ol, li,
+	h1, h2, h3, h4, h5, h6, p,
+	form, input, div {
+	  margin: 0;
+	  padding: 0;
+	}
+
+	body {
+	    font-family: 'Poppins';
+	  }
+
+/*CSS  Untuk Bagian Navbar*/
+	li {
+		padding-top: 10px;
+		margin: 10px;
+	}
+
+/*CSS untuk Bagian Container*/
+	.container {
+	  width: 100%;
+	  height: 500px;
+	}
+
+/*CSS untuk Bagian Header Nama / Banner*/
+	.top-wrapper{
+		border: 1px solid whitesmoke ;
+		background-image: url('assets/gbr12.jpg');
+		background-size: cover;
+		padding-bottom: 20px;
+	}
+
+/*CSS untuk Introduction Of Couple*/
+	.title h2{
+		font-size: 80px;
+	}
+	.middle-wrapper{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.name2 img{
+		border: none;
+	}
+	.pria, .wanita{
+		width: 40%;
+	}
+	.pria img{
+		width: 100%;
+	}
+	.wanita img{
+		width: 100%;
+	}
+
+/*CSS The Story Behind Us*/
+	.content{
+		/*margin : 0;
+		padding: 0;
+		border: 0;
+		padding-bottom: 500px;*/
+		z-index: 1;
+	}
+	.contents{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.tengah {
+		flex: auto;
+		width: 40%;
+	}
+
+
+/*CSS untuk Galery/ Momen*/
+/*
+	.moment{
+		margin: 0;
+		padding: 0;
+		padding-bottom: 500px;
+		z-index: 1;
+	}
+	.galery{
+		margin-bottom: 75px;
+	}
+	.grid-galery{
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 200px;
+	}
+	.moments{
+		flex: auto;
+		width: 50%;
+	}*/
+
+
+}
+
+
+
+/* CSS Untuk Tampilan Smartphones */
+@media (max-width: 670px){
+	tml, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+  }
+
+
+}

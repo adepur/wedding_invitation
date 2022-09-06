@@ -1,0 +1,239 @@
+tml, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+  }
+
+/*CSS  Untuk Bagian Navbar*/
+header{
+  width:100%;
+  height: 40px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+li {
+    list-style: none;
+    float: right;
+    padding : 20px 20px;
+    color: white;
+}
+/*CSS untuk Bagian Container*/
+.container {
+  width: 1170px;
+  height: 650px;
+  margin: 0 auto;
+}
+
+/*CSS untuk Bagian Header Nama / Banner*/
+.top-wrapper{
+  border: 1px solid black;
+  background-image: url('assets/gambar5.png');
+  background-size: cover;
+}
+.title h1{
+  font-family: 'Corinthia' ;
+  font-size: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+.name{
+  margin-top: 100px;
+}
+
+/*CSS untuk Introduction Of Couple*/
+.title h2{
+  font-family: 'Corinthia' ;
+  font-size: 120px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.name2 img{
+  width: 350px;
+  border-radius: 100%;
+  border: 10px solid #fff;
+}
+.pria{
+  float: left;
+  text-align: center;
+}
+.wanita{
+  float: right;
+  text-align: center;
+}
+
+/*CSS untuk The Story Behind Us*/
+.story h1{
+  color: black;
+  font-weight: normal;
+}
+.content{
+  margin: 0;
+  padding: 0;
+}
+.contents{
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(255, 99, 71, 0.1);
+}
+.tengah {
+  width: 25%;
+  margin: 10px;
+}
+.story p{
+  text-align: center;
+}
+.isi{
+  font-size: 10px;
+  text-align: justify-all;
+}
+.kartu img{
+  width: 100%;
+}
+
+/*CSS untuk Galery*/
+.galery{
+  height: 400px;
+
+}
+.grid-galery{
+  display: flex;
+}
+.moments{
+  position: relative;
+}
+.moments img{
+  width: 100%;
+}
+
+/*CSS Untuk Bagian Date dan Maps*/
+.date{
+  background-image:url('assets/awan.png');
+  background-size:cover;
+}
+.head{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.head h3{
+  text-align: center;
+  font-weight: normal;
+}
+.map{
+  margin-left: 320px;
+  margin-right: 320px;
+}
+.map iframe{
+  margin: 0 auto;
+  width: 100%;
+}
+.alamat{
+  text-align: center;
+}
+
+/*CSS Bagian Untuk Kata-kata Invite*/
+.invite{
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  background-color: rgba(211,211,2111,0.3);
+  border-radius: 10px;
+}
+.invite h2{
+  text-align: center;
+  font-family: 'corinthia';
+}
+.invite p{
+  color: #5f5d60;
+  text-align: center;
+  font-size: medium;
+}
+
+/*CSS Bagian Untuk Message*/
+.message-wrapper{
+  padding-top: 150px;
+  background-image: url('assets/bunga1.png');
+
+}
+.message-heading {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.message-heading h2{
+  margin-bottom: 40px;
+}
+
+.message-heading input, textarea{
+  width: 350px;
+  border: none;
+  border-bottom: 2px solid grey;
+  outline: none;
+}
+.message-heading textarea{
+  height: 50px;
+}
+.message-heading label{
+  margin-bottom: 20px;
+}
+
+.btn-message{
+    margin-top: 50px;
+  text-align: center;
+}
+.btn{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.message {
+  float: center;
+  padding: 8px 70px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow:0 7px #1a7940;
+}
+.message:active { 
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+/*CSS untuk Footer*/
+.footer{
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 40px;
+
+}
+.footer p {
+  padding: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
